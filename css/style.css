@@ -1,0 +1,435 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  serif;
+}
+.clear {
+    clear:both;
+}
+.container {
+    width:85%;
+    margin:auto;
+}
+/* header section */
+.header {
+    width:100%;
+    height:60px;
+    /* background-color:rgb(219, 219, 219) ; */
+    /* position: fixed; */
+}
+.header .logo {
+    float:left;
+}
+.header .logo h2{
+    padding-top: 12px;
+    font-size: 30px;
+    color:rgb(196, 14, 84);
+    text-transform:capitalize;
+}
+.header ul {
+    float:right;
+    list-style: none;
+    padding-top: 20px;
+}
+.header ul li {
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    padding:5px;
+    color:rgb(196, 14, 84);
+}
+.header ul li a:hover {
+    color:#ddd;
+    
+}
+/* home section */
+.home {
+    width:100%;
+    height:600px;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.home .home-content{
+    text-align: center;
+    padding-top:150px;
+}
+.home .home-content h2 {
+    color:#fff;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.home .home-content h3 {
+    letter-spacing: 7px;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+    color:#fff;
+    font-size: 20px;
+    
+}
+.home .home-content p {
+    font-size: 20px;
+    color:#fff;
+    margin-bottom: 20px;
+} 
+
+.home .work {
+    position:absolute;
+    left:0;
+    bottom:0;
+    left:43%;
+    background-color:rgb(196, 14, 84) ;
+    font-size: 20px;
+    width:180px;
+    text-align: center;
+    height:120x;
+    padding-left: 30px;
+    color:#fff;    
+}
+/* الكود ده عشان السهم اللي نازل لتحت افهمه كويس */
+.home .work:after {
+    content: "";
+    border-top:30px solid rgb(196, 14, 84) ;
+    border-bottom:30px solid transparent;
+    border-right:30px solid transparent;
+    border-left:30px solid transparent;
+    position:relative;
+    top:50px;
+    left:-75px;
+}
+/* about section */
+.about .about-content {
+    width:25%;
+    float:left;  
+}
+.about .about-content img:hover{
+    opacity:0.7;
+}
+/* blog section */
+.blog {
+    width:100%;
+    height:60px;
+    background-color:rgb(196, 14, 84);
+    text-align: center;
+}
+/*  الكود ده عشان السهم اللي نازل لتحت ده افهمه كويس */
+.blog::after {
+    content: "";
+    border-top:30px solid rgb(196, 14, 84) ;
+    border-bottom:30px solid transparent;
+    border-right:30px solid transparent;
+    border-left:30px solid transparent;
+    position:relative;
+    top:45px;
+    left:-1px;
+}
+.blog p {
+    font-size: 20px;
+    padding-top: 20px;
+    color:#fff;
+    letter-spacing: 2px;
+}
+/* meet section */
+.meet {
+    height:1400px;
+    width:100%;
+    background-color: #ddd;
+    text-align: center;
+}
+
+.meet .meet-content h3 {
+    padding-top: 50px;
+    font-size: 25px;
+    text-transform: capitalize;
+    color:rgb(196, 14, 84) ;
+    margin-bottom: 120px;
+}
+.meet .meet-content .meet-photo {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.meet .meet-content .meet-photo h2 {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-top: 12px;
+    letter-spacing: 5px;
+    color:rgb(196, 14, 84) ;
+
+}
+.meet .meet-content .meet-photo p {
+    padding-top: 12px;
+    font-size: 18px;
+}
+.meet .meet-content .meet-photo img:hover {
+    opacity: 0.6;
+}
+.meet .meet-content button {
+    width:200px;
+    height:35px;
+    background-color: #000;
+    text-transform: capitalize;
+    font-size: 20px;
+    color:#fff;
+    margin-top: 50px;
+    border:0;
+    cursor:pointer;
+
+}
+.meet .meet-content button:hover {
+    color:rgb(196, 14, 84) ;
+}
+/* end section */
+.end {
+    width:100%;
+    height:1000px;
+    background-image: url(../images/Cover_2.jpg);
+    background-size: cover;
+}
+.end .end-content {
+    width:40%;
+    float: left;
+    margin-left: 80px;
+    padding-top: 100px;
+}
+.end .end-content p {
+    color:#777;
+    font-size: 20px;
+}
+.end .end-content h2 {
+    color:#fff;
+    font-size: 35px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.end .btn {
+    text-align: center;
+    margin-top: 120px;
+}
+.end .btn button {
+    width:200px;
+    height:35px;
+    background-color: #777;
+    text-transform: capitalize;
+    font-size: 20px;
+    color:#fff;
+    border:0;
+    cursor:pointer;
+}
+/* footer section */
+.footer {
+    width:100%;
+    height:100px;
+    background-color: #ddd;
+    text-align: center;
+
+}
+.footer p {
+    font-size: 20px;
+    padding-top: 40px;
+    text-transform: capitalize;
+    color:#777;
+}
+/* birg section */
+.birg {
+    text-align: center;
+}
+.birg .birg-content {
+    text-align: center;
+    /* background-color: aqua; */
+    margin:auto;
+    width:400px;
+  
+}
+.birg .birg-content input {
+    display: block;
+    width:100%;
+    margin-bottom: 10px;
+    height:30px;
+    padding-left:5px;
+    font-size:15px;
+    outline:0;
+    /* background-color:rgb(196, 14, 84) ; */
+    border:0;
+   
+}
+.birg .birg-content textarea {
+    width:100%;
+    padding-left: 5px;
+    font-size: 17px;
+    outline:0;
+    /* background-color:rgb(196, 14, 84) ; */
+    border:0;
+}
+.birg .birg-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color:#777;
+    padding-top: 50px;
+}
+.birg .birg-content p {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 37px;
+    color:#777;
+}
+.birg .birg-content h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    color:#777;
+}
+.birg .birg-content button {
+    margin-top: 70px;
+    width:100px;
+    height:30px;
+    border:0;
+    background-color: #fff;
+    color:#777;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 20px;
+    /* background-color: rgb(196, 14, 84); */
+}
+
+.birg {
+    width:100%;
+    height:800px;
+    background-image: url(../images/coverPage2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* studio section */
+.studio {
+    width:100%;
+    height:300px;
+    background-color: #fff;
+    text-align: center;
+}
+.studio .studio-one {
+    padding-top: 60px;
+}
+.studio .studio-one h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color:#000;
+}
+.studio .studio-one p {
+    letter-spacing: 1px;
+    color:#888;
+}
+.studio .icon ul{
+    list-style: none;
+    margin-top: 50px;
+}
+.studio .icon ul li {
+    display: inline-block;
+    padding: 7px;
+}
+.studio p.last {
+    color:red;
+    padding-top: 200px;
+    color:#888;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.studio .icon ul li i:hover {
+    color: #777;
+}
+/* service section */
+.service {
+    width:100%;
+    height:800px;
+    background-image:url(../images/coverPage2.PNG) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* text-align: center; */
+}
+.service .service-content {
+    width:900px;
+    margin:auto;
+    height:600px;
+    background-color: #fff;
+    
+}
+.service h2 {
+    padding-top: 70px;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-left: 42%;
+    padding-bottom: 20px;
+} 
+.service .service-content #two {
+    background-color: #ddd;
+    width:450px;
+    height:337px;
+    float:left;
+    text-align: center;
+}
+.service .service-content #two h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    color:#888;
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.service .service-content #two button {
+    background-color: #000;
+    width:100px;
+    height:40px;
+    border:0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+
+}
+.service .service-content #two p {
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+
+}
+.service .service-content #one {
+    float:left;
+    width:450px;
+
+}
+.service .service-content #one img {
+    width:100%;
+}
+.service .service-content #two,#one {
+    margin-top: 100px;
+}
+/* service-footer */
+.service-footer {
+    width:100%;
+    height:150px;
+    background-color: #ddd;
+    text-align: center;
+}
+.service-footer p {
+    font-size: 20px;
+    color:#000;
+    text-transform: capitalize;
+    padding-top: 50px;
+   
+    
+}
+.service-footer p span {
+    color:#777;
+}
